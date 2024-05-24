@@ -14,8 +14,8 @@
 .section-container{
     @apply max-w-6xl mx-auto text-center;
 }
-.text-content{
-    @apply max-w-3xl text-2xl mx-auto mb-10 text-gray-400;
+.section-content{
+    @apply max-w-3xl mx-auto mb-10 text-gray-400;
 }
 .btn-container{
     @apply flex flex-col justify-center w-full space-y-6 text-white text-xl md:flex-row md:space-y-0 md:space-x-4;
