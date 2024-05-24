@@ -78,7 +78,7 @@
         </div>
     </section>
     <section id="super-charge">
-      <div class="section-container my-20 px-10">
+      <div class="section-container mt-20 mb-20 px-10">
         <h3>Supercharge your workflow</h3>
         <p class="section-content text-xl">
           We've got the tools to boost your productivity.
@@ -103,32 +103,65 @@
       </div>
     </section>
     <section id="references">
-      <div class="section-container mt-44 mb-20">
+      <div class="section-container mt-32 px-10">
         <h3 class="mb-10">our clients</h3>
-        <div class="flex flex-col md:flex-row items-center justify-between mx-auto space-y-16 md:space-y-0 md:space-x-16 mb-20 px-20">
-          <img src="./src/images/logo-google.png" alt="google">
-          <img src="./src/images/logo-ibm.png" alt="IBM">
-          <img src="./src/images/logo-microsoft.png" alt="logo-microsoft">
-          <img src="./src/images/logo-hp.png" alt="logo-hewlett">
-          <img src="./src/images/logo-vector-graphics.png" alt="vector-graphics">
+        <div class="flex flex-col md:flex-row items-center justify-between mx-auto space-y-16 md:space-y-0 md:space-x-10 mb-20 px-20">
+          <img src="./src/images/logo-google.png" alt="google" class="md:w-24">
+          <img src="./src/images/logo-ibm.png" alt="IBM" class="md:w-24">
+          <img src="./src/images/logo-microsoft.png" alt="logo-microsoft" class="md:w-24">
+          <img src="./src/images/logo-hp.png" alt="logo-hewlett" class="md:w-24">
+          <img src="./src/images/logo-vector-graphics.png" alt="vector-graphics" class="md:w-24">
         </div>
       </div>
     </section>
     <!-- section CTA -->
     <section id="cta">
-      <div class="section-container mt-20 mb-20">
+      <div class="section-container mt-44">
         <h3>Clipboard for iOS and MacOS</h3>
         <div class="section-content text-xl">
           Available for free on the App Store. Download for Mac or iOS, sync
           with iCloud and you're ready to start adding to your clipboard.
         </div>
         <!-- button container -->
-          <div class="btn-container">
+          <div class="btn-container mb-24">
             <a href="#" class="py-6 px-8 rounded-full shadow-lg hover:opacity-80 duration-200 bg-emerald-500">Download for iOS</a>
             <a href="#" class="py-6 px-8 rounded-full shadow-lg hover:opacity-80 duration-200 bg-blue-600">Download for Mac</a>
           </div>
       </div>
     </section>
+    <!-- footer -->
+    <footer id="footer">
+      <div class="section-container">
+        <div class="flex flex-col md:flex-row items-center justify-between">
+          <!-- logo-image -->
+          <img src="./src/images/logo.svg" alt="logo" class="scale-50">
+          <div class="flex flex-col md:flex-row items-center justify-start md:justify-between space-y-4 md:space-y-0  flex-1">
+            <!-- menus and icon container -->
+            <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-20 md:ml-24">
+              <div class="flex flex-col space-y-2">
+                <div><a class="text-slate-400" href="#">FAQs</a></div>
+                <div><a class="text-slate-400" href="#">Contact Us</a>
+              </div>
+            </div>
+          </div>
+              <div class="flex flex-col space-y-4">
+                <div><a class="text-slate-400" href="#">Privacy Policy</a></div>
+                <div><a class="text-slate-400" href="#">press Kit</a>
+              </div>
+            </div>
+              <div class="flex flex-col space-y-4">
+                <div><a class="text-slate-400" href="#">Install Guide</a></div>
+            </div>
+          </div>
+          <!-- social icon -->
+          <div class="flex justify-between w-32 py-4 md:ml-20">
+            <a href="#"><img src="./src/images/icon-facebook.svg" alt="icon-facebook" class="duration-200 ficon"></a>
+            <a href="#"><img src="./src/images/icon-twitter.svg" alt="icon-facebook" class="duration-200 ficon"></a>
+            <a href="#"><img src="./src/images/icon-instagram.svg" alt="icon-facebook" class="duration-200 ficon"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
