@@ -8,7 +8,7 @@
         @apply text-4xl font-bold mb-8 md:text-5xl text-blue-950;
     }
     h5{
-        @apply mb-2 text-2xl font-bold text-slate-500;
+        @apply mb-2  text-2xl font-bold text-slate-500;
     }
 }
 .section-container{
@@ -16,6 +16,9 @@
 }
 .section-content{
     @apply max-w-3xl mx-auto mb-10 text-gray-400;
+}
+.sub-content{
+    @apply max-w-md xs:mx-auto md:mx-0 text-slate-400;
 }
 .btn-container{
     @apply flex flex-col justify-center w-full space-y-6 text-white text-xl md:flex-row md:space-y-0 md:space-x-4;
